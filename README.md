@@ -53,10 +53,10 @@
 
     python data_systhesis.py
 
-+  Mel Spectrogram made by data_systhesis_original.py
++  **Mel Spectrogram made by data_systhesis_original.py**
   ![image](https://github.com/kodongjin/DL_project/assets/133321474/859cd5c4-ffe7-474c-ad1e-5b798da8a3f1)
 
-+ Mel Spectrogram made by data_systhesis.py
++ **Mel Spectrogram made by data_systhesis.py**
 ![image](https://github.com/kodongjin/DL_project/assets/133321474/130a2085-b958-4ebe-9dc9-554b15e6b091)
 
 # 2. 모델 학습
@@ -95,7 +95,7 @@
 
     python test.py
 
-아래와 같은 형식의 Confusion Matrix를 얻을 수 있습니다.
+**아래와 같은 형식의 Confusion Matrix를 얻을 수 있습니다.**
 ![image](https://github.com/kodongjin/DL_project/assets/133321474/0d8045e4-f2ce-4307-abba-bac65b2b8c6c)
 
 
