@@ -55,7 +55,7 @@
     python data_systhesis.py
 
 
-## 1. 모델 학습
+# 1. 모델 학습
 학습 및 평가는 **data_systhesis_original.py**로 생성한 데이터에 대해 진행되었습니다.
 
 모델의 입력 형식과 구조에 따라 다양한 실험을 진행하였으며, 그 결과는 다음과 같습니다.
@@ -84,5 +84,9 @@
 + A trained model using a dataset processed by data_systhesis_original.py (Val_Acc : 0.7422)
 + A trained model using a dataset processed by data_systhesis.py
 
-## 2. 모델 평가 및 시각화
+# 2. 모델 평가 및 시각화
 학습한 모델로 test set에 대한 Classification을 진행하고, 분류 결과를 시각화합니다.
+
+python test.py
+
+
