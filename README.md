@@ -44,9 +44,11 @@
 
 
 '파일명 변경'을 통해 **2young_14415140_드럼세탁기 소리.wav -> 드럼세탁기소리_0001.wav**와 같이 파일의 이름을 변경할 수 있습니다.
+
     python ch_filename.py
 
 '데이터 합성'을 통해 배경소음과 이벤트 음향을 합성할 수 있습니다. 또한 합성한 음성에 대해 wav 파일과 Mel Spectrogram 이미지로 저장할 수 있습니다.
+
     python data_systhesis.py
 
 
