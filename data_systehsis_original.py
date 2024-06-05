@@ -4,7 +4,6 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 import soundfile as sf
-from PIL import Image
 
 def data_systehsis(background_audio, event_audio, target_samplerate = 44100, audio_second = 10, range_min = 0.2, range_max = 0.8):
     b_data, b_sample_rate = librosa.load(background_audio, sr = None)
@@ -89,16 +88,7 @@ for event_folder in event_list:
                 S_dB = librosa.power_to_db(S, ref=np.max)
                 fig, ax = plt.subplots(figsize=(10, 4))
                 ax.set_position([0, 0, 1, 1])
-                ax.set_ylim(0, 8000)
                 ax.set_axis_off()
                 librosa.display.specshow(S_dB, sr=44100, hop_length=hop_length, x_axis='time', y_axis='mel', ax=ax)
                 plt.savefig(output_img_path, pad_inches=0)
                 plt.close(fig)
-
-                img = Image.open(output_img_path)
-                img_array = np.array(img)
-                img_array[:, 0:10] = 0
-                img_array[:, 500:510] = 0
-                img = Image.fromarray(img_array)
-                output_img_path = os.path.join(output_img_path)
-                img.save(output_img_path)
