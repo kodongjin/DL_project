@@ -79,4 +79,4 @@
 
     python train.py
 
-
+추가적으로, [학습된 모델](www.naver.con)을 제공합니다.
