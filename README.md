@@ -73,7 +73,7 @@
 |Mel_CNN(Imagenet)|59.76 MB|0.4976|
 |Mel_CNN(Generalization-Dropout)|59.76 MB|0.7309|
 |Mel_CNN(Generalization-BatchNorm)|59.78 MB|0.6857|
-|Mel_CNN(Generalization-ReduceLR)|59.76 MB||
+|Mel_CNN(Generalization-ReduceLR)|59.76 MB||0.7220|
 |Mel_CNN(Generalization-Dropout,ReduceLR)|59.76 MB|**0.7422**|
 
 가장 높은 성능을 낸 **Mel_CNN(Generalization-Dropout,ReduceLR)** 구조에 대하여 학습 코드를 제공합니다.
