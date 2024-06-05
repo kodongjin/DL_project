@@ -100,12 +100,17 @@
 
 # 4. Inference
 녹음 장치가 있는 디바이스(ex : 노트북)에서 웹(streamlit) 기반으로 작동하는 인퍼런스 파일입니다.
+녹음된 음성은 후처리 과정(발표자료 참고)을 거쳐, 모델의 입력으로 들어갑니다.
 
     pip install streamlit
     streamlit run inference.py
 
 **작동 예시**
-https://github.com/kodongjin/DL_project/assets/133321474/014950d1-2d65-4d5a-8a8e-be071d8d3d1f
+
+
+https://github.com/kodongjin/DL_project/assets/133321474/0e6289a6-ef8d-46fa-9122-03aae6683001
+
+
 
 
 
