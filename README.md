@@ -87,6 +87,6 @@
 # 2. 모델 평가 및 시각화
 학습한 모델로 test set에 대한 Classification을 진행하고, 분류 결과를 시각화합니다.
 
-python test.py
+    python test.py
 
 
