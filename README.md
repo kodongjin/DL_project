@@ -49,10 +49,15 @@
    
 '데이터 합성'을 통해 배경소음과 이벤트 음향을 합성할 수 있습니다. 또한 합성한 음성에 대해 wav 파일과 Mel Spectrogram 이미지로 저장할 수 있습니다.
 
-본 과정에서는 Inference 과정에서의 데이터 결측치를 감안하여 멜스펙트로그램에서 나타내는 주파수 대역을 줄이고, 0초와 5초 부근에 0.1초씩 패딩을 추가로 진행하였습니다. 해당 처리를 원하지 않는다면, **data_systhesis_original.py**를 실행하십시오.
+최 과정에서는 Inference 과정에서의 데이터 결측치를 감안하여 멜스펙트로그램에서 나타내는 주파수 대역을 줄이고, 0초와 5초 부근에 0.1초씩 패딩을 추가로 진행하였습니다. 해당 처리를 원하지 않는다면, **data_systhesis_original.py**를 실행하십시오.
 
     python data_systhesis.py
 
++  Mel Spectrogram made by data_systhesis_original.py
+  ![image](https://github.com/kodongjin/DL_project/assets/133321474/859cd5c4-ffe7-474c-ad1e-5b798da8a3f1)
+
++ Mel Spectrogram made by data_systhesis.py
+![image](https://github.com/kodongjin/DL_project/assets/133321474/130a2085-b958-4ebe-9dc9-554b15e6b091)
 
 # 2. 모델 학습
 학습 및 평가는 **data_systhesis_original.py**로 생성한 데이터에 대해 진행되었습니다.
