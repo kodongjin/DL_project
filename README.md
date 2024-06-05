@@ -98,5 +98,15 @@
 **아래와 같은 형식의 Confusion Matrix를 얻을 수 있습니다.**
 ![image](https://github.com/kodongjin/DL_project/assets/133321474/0d8045e4-f2ce-4307-abba-bac65b2b8c6c)
 
+# 4. Inference
+녹음 장치가 있는 디바이스(ex : 노트북)에서 웹(streamlit) 기반으로 작동하는 인퍼런스 파일입니다.
+
+    pip install streamlit
+    streamlit run inference.py
+
+아래와 같이 작동합니다.
+![image](https://github.com/kodongjin/DL_project/assets/133321474/2360836e-719b-479a-bdc0-0f87c47475ff)
+
+
 
 
