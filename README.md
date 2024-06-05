@@ -56,11 +56,12 @@
 
 
 ## 1. 모델 학습
+학습 및 평가는 **data_systhesis_original.py**로 생성한 데이터에 대해 진행되었습니다.
+
 모델의 입력 형식과 구조에 따라 다양한 실험을 진행하였으며, 그 결과는 다음과 같습니다.
 
 성능은 검증 데이터셋의 8개 클래스에 대한 분류 정확도를 나타냅니다.
 
-학습 및 평가는 **data_systhesis_original.py**로 생성한 데이터에 대해 진행되었습니다.
 
 |실험|파라미터|성능|
 |------|---|---|
@@ -73,3 +74,9 @@
 |Mel_CNN(Generalization-BatchNorm)|59.78 MB|0.6857|
 |Mel_CNN(Generalization-ReduceLR)|59.76 MB||
 |Mel_CNN(Generalization-Dropout,ReduceLR)|59.76 MB||
+
+가장 높은 성능을 낸 **Mel_CNN(Generalization-Dropout,ReduceLR)** 구조에 대하여 학습 코드를 제공합니다.
+
+    python train.py
+
+
