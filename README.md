@@ -1,4 +1,4 @@
-# 음향 이벤트 인식을 활용한 IoT 기반 가정 안전 솔루션 개발
+![image](https://github.com/kodongjin/DL_project/assets/133321474/bb967a3e-0f9b-49e4-ac13-d849a5b71cd7)# 음향 이벤트 인식을 활용한 IoT 기반 가정 안전 솔루션 개발
 본 repository는 2024년 서울과학기술대학교 산업공학과 딥러닝 수업 프로젝트 10팀이 수행한 작업을 재현할 수 있도록 구성되었습니다.
 구체적인 진행 내용은 아래의 발표자료를 참고하기 바랍니다.
 (발표자료)
@@ -55,9 +55,17 @@
 
 
 ## 1. 모델 학습
-모델의 입력 형식과 구조에 따라 다양한 실험을 진행하였으며, 그 결과는 다음과 같습니다.
-|실험|파라미터|검증 데이터셋에 대한 최고 분류 정확도|
+모델의 입력 형식과 구조에 따라 다양한 실험을 진행하였으며, 그 결과는 다음과 같습니다. 성능은 검증 데이터셋의 8개 클래스에 대한 분류 정확도를 나타냅니다.
+
+학습 및 평가는 **data_systhesis_original.py**로 생성한 데이터에 대해 진행되었습니다.
+|실험|파라미터|성능|
 |------|---|---|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+|Wav_MLP|39.23 MB|0.2271|
+|Wav_Conv1D|55.47 MB|0.1240|
+|Mel_MLP|49.51 MB|0.4929|
+|Mel_CNN|59.76 MB|0.7129|
+|Mel_CNN(Imagenet)|59.76 MB|0.4976|
+|Mel_CNN(Generalization-Dropout)|59.76 MB|0.7309|
+|Mel_CNN(Generalization-BatchNorm)|59.78 MB|0.6857|
+|Mel_CNN(Generalization-ReduceLR)|59.76 MB||
+|Mel_CNN(Generalization-Dropout,ReduceLR)|59.76 MB||
