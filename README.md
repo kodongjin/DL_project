@@ -90,6 +90,8 @@
 
     python test.py
 
+아래와 같은 형식의 Confusion Matrix를 얻을 수 있습니다.
+![image](https://github.com/kodongjin/DL_project/assets/133321474/0d8045e4-f2ce-4307-abba-bac65b2b8c6c)
 
 
 
