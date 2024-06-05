@@ -9,8 +9,7 @@
 + 김도영 (kimdoyoung1023@seoultech.ac.kr)
 + 곽동욱 (메일주소)
   
-# 0. 데이터셋 다운로드 및 전처리
-## a. 데이터셋 다운로드
+# 0. 데이터셋 다운로드
 본 프로젝트에서는 배경소음과 이벤트 음향을 합성하여, 실내 상황에서 들을 수 있는 음향 데이터셋을 구축하고 이것을 딥러닝 모델 학습 및 평가에 사용합니다.
 데이터의 출처와 활용 내용은 아래와 같습니다.
 
@@ -39,7 +38,7 @@
     │   │   ├── ...
     │   └── ...
 
-## b. 데이터셋 전처리
+# 1. 데이터셋 전처리
 데이터셋에 대한 전처리는 크게 '파일명 변경'과 '데이터 합성'으로 이루어집니다.
 데이터셋 전처리를 위해, 아래 코드를 차례대로 실행하십시오.
 
@@ -56,7 +55,7 @@
     python data_systhesis.py
 
 
-# 1. 모델 학습
+# 2. 모델 학습
 학습 및 평가는 **data_systhesis_original.py**로 생성한 데이터에 대해 진행되었습니다.
 
 모델의 입력 형식과 구조에 따라 다양한 실험을 진행하였으며, 그 결과는 다음과 같습니다.
@@ -85,7 +84,7 @@
 + [A trained model using a dataset processed by data_systhesis_original.py](https://drive.google.com/file/d/1Snaj06LRUnug9wvUan047H8OR-9z4Ghq/view?usp=sharing) (Val_Acc : 0.7422)
 + A trained model using a dataset processed by data_systhesis.py
 
-# 2. 모델 평가 및 시각화
+# 3. 모델 평가 및 시각화
 학습한 모델로 test set에 대한 Classification을 진행하고, 분류 결과를 시각화합니다.
 
 **data_systhesis_original.py**로 데이터 및 모델을 생성했다고 가정합니다.
