@@ -108,5 +108,9 @@
 ![image](https://github.com/kodongjin/DL_project/assets/133321474/2360836e-719b-479a-bdc0-0f87c47475ff)
 
 
+https://github.com/kodongjin/DL_project/assets/133321474/014950d1-2d65-4d5a-8a8e-be071d8d3d1f
+
+
+
 
 
