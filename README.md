@@ -16,12 +16,14 @@
 | **데이터** |**출처** | **활용내용** |
 |------|--------|--------|
 | 드럼세탁기소리 | [생활환경소음 AI학습용 데이터 및 민원 관리 서비스 구축 사업](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71296)  |배경소음|
-| 통돌이세탁기소리 |1   |2|
-| 진공청소기소리 | 1   |3|
-| 식기세척기소리 | 1   |3|
-| 음악흥얼거리는소리|1|3|
-| 화장실소리 | |  |
-| 부엌소리 | | |
+| 통돌이세탁기소리 | [생활환경소음 AI학습용 데이터 및 민원 관리 서비스 구축 사업](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71296)  | 배경소음 |
+| 진공청소기소리 | [생활환경소음 AI학습용 데이터 및 민원 관리 서비스 구축 사업](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71296)  | 배경소음 |
+| 식기세척기소리 | [생활환경소음 AI학습용 데이터 및 민원 관리 서비스 구축 사업](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71296)  | 배경소음 |
+| 음악흥얼거리는소리 |[배경소음 데이터셋 - 소리의 비언어적인 부분까지 감지할 수 있는 인공지능 데이터셋([https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71296](https://selectstar-opendataset2021.s3.ap-northeast-2.amazonaws.com/%EC%BD%94%ED%81%B4%EB%A6%AC%EC%96%B4%EB%8B%B7/%EC%9D%8C%EC%95%85+%ED%9D%A5%EC%96%BC%EA%B1%B0%EB%A6%AC%EB%8A%94+%EC%86%8C%EB%A6%AC.zip
+)![image](https://github.com/kodongjin/DL_project/assets/161704532/221de3ea-8671-4c46-9930-8d4e6ce05aeb)
+) | 배경소음 |
+| 화장실소리 | | 배경소음 |
+| 부엌소리 | | 배경소음 |
 
 다운로드 받은 데이터셋을 아래와 같은 구조로 정리하십시오.
 
