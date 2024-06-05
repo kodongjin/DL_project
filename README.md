@@ -81,7 +81,7 @@
 
 추가적으로, 학습된 모델을 제공합니다.
 
-+ A trained model using a dataset processed by data_systhesis_original.py (Val_Acc : 0.7422)
++ [A trained model using a dataset processed by data_systhesis_original.py](https://drive.google.com/file/d/1Snaj06LRUnug9wvUan047H8OR-9z4Ghq/view?usp=sharing) (Val_Acc : 0.7422)
 + A trained model using a dataset processed by data_systhesis.py
 
 # 2. 모델 평가 및 시각화
