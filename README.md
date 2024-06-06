@@ -5,7 +5,7 @@
 (발표자료)
 
 팀원 구성은 다음과 같습니다.
-+ 고동진 (메일주소)
++ 고동진 (smileboy816@naver.com)
 + 김도영 (kimdoyoung1023@seoultech.ac.kr)
 + 곽동욱 (charles2659@naver.com)
   
