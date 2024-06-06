@@ -7,7 +7,9 @@
 팀원 구성은 다음과 같습니다.
 + 고동진 (smileboy816@naver.com)
 + 김도영 (kimdoyoung1023@seoultech.ac.kr)
+  
   + 제목(모델 학습)
+    
     +모델을 학습하였습니다.
 + 곽동욱 (charles2659@naver.com)
   
