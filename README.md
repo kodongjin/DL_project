@@ -4,7 +4,6 @@
 
 [딥러닝_10팀.pdf](https://github.com/user-attachments/files/15603536/_10.pdf)
 
-
 팀원 구성은 다음과 같습니다.
 + 고동진 (smileboy816@naver.com)
   +  데이터 수집 및 합성
