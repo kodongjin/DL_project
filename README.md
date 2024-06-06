@@ -50,7 +50,7 @@
 | 문여닫는소리 |[생활환경소음 AI학습용 데이터 및 민원 관리 서비스 구축 사업](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71296) | 이벤트소음 |
 | 야외놀이터소리 | [URBANSOUND8K DATASET](https://urbansounddataset.weebly.com/urbansound8k.html)| 이벤트소음 |
 | 사이렌 | [URBANSOUND8K DATASET](https://urbansounddataset.weebly.com/urbansound8k.html) | 이벤트소음 |
-| 아이울음소 | [Infant cry Dataset](https://www.kaggle.com/datasets/sanmithasadhish/infant-cry-dataset) | 이벤트소음 |
+| 아이울음소리| [Infant cry Dataset](https://www.kaggle.com/datasets/sanmithasadhish/infant-cry-dataset) | 이벤트소음 |
 
 다운로드 받은 데이터셋을 아래와 같은 구조로 정리하십시오.
 
