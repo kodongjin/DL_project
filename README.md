@@ -15,13 +15,24 @@
 
 | **데이터** |**출처** | **활용내용** |
 |------|--------|--------|
-| 드럼세탁기소리 | [생활환경소음 AI학습용 데이터 및 민원 관리 서비스 구축 사업](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71296)  |배경소음|
+| 드럼세탁기소리 | [생활환경소음 AI학습용 데이터 및 민원 관리 서비스 구축 사업](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71296)  | 배경소음 |
 | 통돌이세탁기소리 | [생활환경소음 AI학습용 데이터 및 민원 관리 서비스 구축 사업](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71296)  | 배경소음 |
 | 진공청소기소리 | [생활환경소음 AI학습용 데이터 및 민원 관리 서비스 구축 사업](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71296)  | 배경소음 |
 | 식기세척기소리 | [생활환경소음 AI학습용 데이터 및 민원 관리 서비스 구축 사업](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71296)  | 배경소음 |
 | 음악흥얼거리는소리 |[배경소음 데이터셋 - 소리의 비언어적인 부분까지 감지할 수 있는 인공지능 데이터셋](https://selectstar-opendataset2021.s3.ap-northeast-2.amazonaws.com/%EC%BD%94%ED%81%B4%EB%A6%AC%EC%96%B4%EB%8B%B7/%EC%9D%8C%EC%95%85+%ED%9D%A5%EC%96%BC%EA%B1%B0%EB%A6%AC%EB%8A%94+%EC%86%8C%EB%A6%AC.zip) | 배경소음 |
 | 화장실소리 | [배경소음 데이터셋 - 소리의 비언어적인 부분까지 감지할 수 있는 인공지능 데이터셋](https://selectstar-opendataset2021.s3.ap-northeast-2.amazonaws.com/%EC%BD%94%ED%81%B4%EB%A6%AC%EC%96%B4%EB%8B%B7/%ED%99%94%EC%9E%A5%EC%8B%A4.zip) | 배경소음 |
 | 부엌소리 | [배경소음 데이터셋 - 소리의 비언어적인 부분까지 감지할 수 있는 인공지능 데이터셋](https://selectstar-opendataset2021.s3.ap-northeast-2.amazonaws.com/%EC%BD%94%ED%81%B4%EB%A6%AC%EC%96%B4%EB%8B%B7/%EB%B6%80%EC%97%8C.zip) | 배경소음 |
+
+| **데이터** |**출처** | **활용내용** |
+|------|--------|--------|
+| 강아지짖는소리 | [도시 소리 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=585) | 이벤트소음 |
+| 고양이우는소리 | [도시 소리 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=585)  | 이벤트소음 |
+| 발걸음소리 | [도시 소리 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=585)  | 이벤트소음 |
+| 망치질소리 | [생활환경소음 AI학습용 데이터 및 민원 관리 서비스 구축 사업](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71296) | 이벤트소음 |
+| 문여닫는소리 |[생활환경소음 AI학습용 데이터 및 민원 관리 서비스 구축 사업](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71296) | 이벤트소음 |
+| 야외놀이터소리 | [URBANSOUND8K DATASET](https://urbansounddataset.weebly.com/urbansound8k.html)| 이벤트소음 |
+| 사이렌 | [URBANSOUND8K DATASET](https://urbansounddataset.weebly.com/urbansound8k.html) | 이벤트소음 |
+| 아이울음소 | [Infant cry Dataset](https://www.kaggle.com/datasets/sanmithasadhish/infant-cry-dataset) | 이벤트소음 |
 
 다운로드 받은 데이터셋을 아래와 같은 구조로 정리하십시오.
 
